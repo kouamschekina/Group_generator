@@ -3,7 +3,7 @@ name: Build and Deliver Docker Package
 on:
   push:
     branches:
-      - develop  # Change this to your main branch
+      - main  # Change this to your main branch
 
 env:
   REGISTRY: ghcr.io
